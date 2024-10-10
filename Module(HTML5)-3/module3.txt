@@ -1,0 +1,74 @@
+                       Module (HTML5) – 3
+Q-1:What are the new tags added in HTML5?
+Ans:List of new semantic elements
+The semantic elements added in HTML5 are:
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+Q-2:How to embed audio and video in a webpage?
+Ans:To embed audio in HTML, we use the <audio> tag. Before HTML5,
+audio cannot be added to web pages in the Internet Explorer era.
+To play audio, we used web plugins like Flash. After the release
+of HTML5, it is possible. This tag supports Chrome, Firefox, Safari, 
+Opera, and Edge in three audio formats – MP3, WAV, OGG. Only Safari
+browser doesn’t support OGG audio format.
+Example:
+<audio>
+    <source src="file_name" type="audio_file_type">
+</audio>
+
+To embed video in HTML, we use the <video> tag. 
+It contains one or more video sources at a time using <source> tag. 
+It supports MP4, WebM, and Ogg in all modern browsers. 
+Only Ogg video format doesn’t support in Safari browser. 
+Example:
+<video>
+    <source src="file_name" type="video_file_type">
+</video>
+
+Q-3:Semantic element in HTML5?
+Ans:Semantic elements in HTML5 are those that clearly describe their
+meaning in a human- and machine-readable way. Using semantic elements
+helps with accessibility, search engine optimization, and code readability.
+Here are some key semantic elements:
+<header>
+<nav>
+<main>
+<article>
+<section>
+<aside>
+<footer>
+<figure>
+<figcaption>
+<time>
+
+Q-4:Canvas and SVG tags 
+Ans:The HTML5 Canvas element provides a space on the web page where 
+you can dynamically draw graphics using JavaScript.
+Unlike SVG, which is vector-based, Canvas is pixel-based (raster).
+
+Pixel-based: Canvas allows you to draw shapes, images, and text pixel by pixel.
+Dynamic: It’s ideal for real-time graphics, such as games, interactive animations, or visual effects.
+JavaScript-based: You must use JavaScript to manipulate the canvas and render graphics.
+
+SVG (Scalable Vector Graphics) is an XML-based format used for defining 
+two-dimensional vector graphics on the web. Unlike raster images such as 
+.jpg, .gif, or .png, SVG images can be scaled to any size without losing quality.
+
+Scalable: SVG images maintain high quality at any resolution, making them ideal 
+for logos, icons, and scalable graphics.
+Editable: SVG images can be created and edited using any text editor since they 
+are based on XML.
+Interactive: You can modify SVG graphics using CSS or JavaScript.
+
